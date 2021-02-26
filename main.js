@@ -1,8 +1,7 @@
 const liczby = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 //REVERSE dwraca kolejność elementów w tablicy
-liczby.reverse()
-console.log("reverse", liczby)
+console.log("reverse", liczby.reverse())
 
 
 //stworzenie nowej tablicy od 110 do 1
@@ -79,5 +78,19 @@ console.log("shift usuwa 1 element", tablica)
 //UNSHIFT Dodaje jeden lub więcej elementów na początek tablicy i zwraca jej nową długość
 tablica.unshift(1, 3)
 console.log("unshift dodaje elementy na poczatek tablicy", tablica)
+
+
+const tablica2 = new Array(1, 13, 150, 1500)
+console.log(tablica2)
+
+//sprawdza długosc tablicy
+console.log(tablica2.length)
+
+
+tablica2.forEach(teb =>{
+    if(teb === 150){
+        console.log(teb)
+    }
+})
 
 
